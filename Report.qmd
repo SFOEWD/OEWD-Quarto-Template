@@ -1,0 +1,35 @@
+---
+title: "Report Title"
+author: "Data and Performance Team (OEWD)"
+date: "`r Sys.Date()`"
+self-contained: true
+format: 
+  html:
+    output-file: "REPORT_TITLE"
+    output-ext: "html"
+    toc: true
+    css: style.css
+    page-layout: full
+execute: 
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+library(gt)
+library(tidyverse)
+```
+
+
+# Overview
+
+
+
+# About this Report
+
+This HTML report was created with [Quarto](https://quarto.org/) The data within is self-contained and cannot be updated automatically. If you bookmark the report within your browser, be aware that the bookmark URL references a file path on your computer; moving the document to a different location will break the bookmark. 
+
+
+
+

@@ -1,0 +1,10 @@
+h1, h2, h3, h4 {
+  font-family: 'Palatino Linotype', serif;
+  font-weight: 700;
+}
+
+h5 {
+  font-style: italic;
+  background-color: #000033;
+  color: white;
+}
